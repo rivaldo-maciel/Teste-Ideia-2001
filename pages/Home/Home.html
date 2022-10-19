@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ideia 2001</title>
-    <link rel="stylesheet" type="text/css" href="./Home.css" />
     <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./Home.css" />
+    <link rel="stylesheet" type="text/css" href="../../components//SelectLanguage/SelectLanguage.css" />
+    <link rel="stylesheet" type="text/css" href="../../components/MenuIcon/MenuIcon.css" />
   </head>
   <body>
     <header>
-      <div class="select-language-container" onclick="activeLanguageSelect()">
-        <div class="select-language">
+      <div class="select-language-container">
+        <div class="select-language" onclick="activeLanguageSelect()">
           <span>idioma:</span>
           <img src="../../assets/brasil.png" alt="brasil-icon" />
           <span class="arrow"></span>
@@ -26,6 +28,11 @@
             <span>en-us</span>
           </div>
         </div>
+      </div>
+      <div class="menu-icon-container" onclick="activeMenu()">
+        <span class="menu-icon-piece1"></span>
+        <span class="menu-icon-piece2"></span>
+        <span class="menu-icon-piece3"></span>
       </div>
     </header>
     <script src="./Home.js"></script>
