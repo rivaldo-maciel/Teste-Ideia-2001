@@ -1,0 +1,13 @@
+header {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #444242;
+}
+
+@media (max-width: 320px) {
+  header {
+    background-color: #FFB64E;
+  }
+}
