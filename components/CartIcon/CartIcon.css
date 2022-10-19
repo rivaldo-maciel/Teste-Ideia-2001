@@ -1,0 +1,33 @@
+.cart-icon-container {
+  height: 2rem;
+  width: 2.5rem;
+  position: relative;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon-container .cart-quantity {
+  height: 1rem;
+  width: 1rem;
+  background-color: #FA9401;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cart-quantity span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.cart-icon-container img {
+  width: 1.5rem;
+  height: 1.5rem;
+}

@@ -1,9 +1,7 @@
-function activeLanguageSelect() {
-  const selectBtn = document.querySelector(".options-container");
-  selectBtn.classList.toggle("active");
+window.onload = {
+  
 }
 
-function activeMenu() {
-  const menuIconContainer = document.querySelector(".menu-icon-container");
-  menuIconContainer.classList.toggle("active-menu")
+function changePage(page) {
+  window.location.href = page;
 }
