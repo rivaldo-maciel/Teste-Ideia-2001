@@ -2,6 +2,8 @@ body {
   background-color: #444242;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 header {
@@ -13,7 +15,6 @@ header {
 
 main {
   width: 80%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +23,7 @@ main {
 }
 
 .buttons-container {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .home-button:nth-child(1) {
@@ -46,5 +47,17 @@ main {
   font-size: 1rem;
   font-weight: 600;
   margin-left: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+nav .social-icons-container {
+  width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
