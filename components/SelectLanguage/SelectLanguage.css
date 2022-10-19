@@ -45,6 +45,8 @@
   margin-top: 0.4rem;
   border-radius: 2px;
   display: none;
+  position: relative;
+  z-index: 1;
 }
 
 .options-container.active {

@@ -1,7 +1,8 @@
 body {
   background-color: #444242;
+  display: flex;
+  flex-direction: column;
 }
-
 
 header {
   height: 4rem;
@@ -10,4 +11,40 @@ header {
   justify-content: space-between;
 }
 
+main {
+  width: 80%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.buttons-container {
+  margin-top: 1.5rem;
+}
+
+.home-button:nth-child(1) {
+  background-color: #FA9401;;
+}
+
+.home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.3rem;
+  width: 17rem;
+  border-radius: 50px;
+  border: 1px solid #FA9401;
+  background: transparent;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+
+.home-button span {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
 
