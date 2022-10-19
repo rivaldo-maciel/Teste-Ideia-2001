@@ -9,8 +9,16 @@
     <script src="../../components/MenuIcon/MenuIcon.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/main.css" />
     <link rel="stylesheet" type="text/css" href="./Contact.css" />
-    <link rel="stylesheet" type="text/css" href="../../components/Header/Header.css" />
-    <link rel="stylesheet" type="text/css" href="../../components/CartIcon/CartIcon.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../components/Header/Header.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../components/CartIcon/CartIcon.css"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -28,16 +36,18 @@
         <img src="../../assets/Voltar.png" alt="back arrow icon" />
       </a>
       <img class="logo" src="../../assets/Logo.svg" alt="logo icon" />
-      <di class="cart-icon-container">
-        <img src="../../assets/carrinho.png" alt="cart icon" />
-        <div class="cart-quantity">
-          <span>1</span>
+      <div class="cart-menu-icon-container">
+        <di class="cart-icon-container">
+          <img src="../../assets/carrinho.png" alt="cart icon" />
+          <div class="cart-quantity">
+            <span>1</span>
+          </div>
+        </di>
+        <div class="menu-icon-container" onclick="activeMenu()">
+          <span class="menu-icon-piece1"></span>
+          <span class="menu-icon-piece2"></span>
+          <span class="menu-icon-piece3"></span>
         </div>
-      </di>
-      <div class="menu-icon-container" onclick="activeMenu()">
-        <span class="menu-icon-piece1"></span>
-        <span class="menu-icon-piece2"></span>
-        <span class="menu-icon-piece3"></span>
       </div>
     </header>
     <div class="title-page">
@@ -71,7 +81,7 @@
           </div>
         </div>
       </section>
-      <section class="social-meidia-links">
+      <section class="social-media-links">
         <a href="">
           <img src="../../assets/Facebook.svg" alt="facebook icon" />
         </a>
@@ -89,5 +99,6 @@
         </a>
       </section>
     </main>
+    <button class="btn-footer" type="button">Fale conosco</button>
   </body>
 </html>
