@@ -84,7 +84,6 @@ main {
   color: #FFFFFF;
   font-size: 1rem;
   position: relative;
-  bottom: 0;
 }
 
 .btn-footer:hover {
@@ -101,7 +100,7 @@ main {
   .btn-footer {
     width: 40%;
     align-self: center;
-    top: -5rem;
+    top: -3rem;
   }
 }
 
