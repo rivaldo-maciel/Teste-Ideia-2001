@@ -89,6 +89,7 @@ main {
 
 .btn-footer:hover {
   background-color: #ffaf3e;
+  cursor: pointer;
 }
 
 @media (min-width: 1280px) {
