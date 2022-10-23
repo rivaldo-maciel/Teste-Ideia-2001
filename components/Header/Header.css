@@ -11,3 +11,9 @@ header {
     background-color: #FFB64E;
   }
 }
+
+@media (max-width: 568px) and (orientation: landscape) {
+  header {
+    background-color: #FFB64E;
+  }
+}

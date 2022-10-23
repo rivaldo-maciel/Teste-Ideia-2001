@@ -68,7 +68,7 @@ nav .social-icons-container {
   }
 }
 
-@media (min-width: 360px) and (orientation: landscape) {
+@media (max-width: 915px) and (orientation: landscape) {
   .buttons-container {
     display: flex;
     width: 90%;
@@ -82,10 +82,34 @@ nav .social-icons-container {
   }
 }
 
+@media (max-width: 568px) and (orientation: landscape) {
+  .buttons-container button {
+    width: 10rem;
+  }
+
+  body {
+    background-color: #FFB64E;
+  }
+
+  header {
+    background-color: #FFB64E;
+  }
+
+  .home-button {
+    border: 2px solid #FFFFFF;
+  }
+
+  .home-button:nth-child(1) {
+    border: 2px solid #444242
+  }
+}
+
 @media (min-width: 1280px) {
   .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
-    margin-top: 5rem;
   }
 }
 
