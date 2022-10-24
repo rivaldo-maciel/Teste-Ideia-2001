@@ -1,9 +1,10 @@
 header {
-  height: 5rem;
+  height: 5.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #444242;
+  position: relative;
 }
 
 @media (max-width: 320px) {
